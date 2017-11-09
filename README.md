@@ -11,7 +11,7 @@
 npm init -y 
 npm install --save webpack react react-dom react-redux redux redux-logger babel-core babel-loader babel-preset-react babel-preset-es2015 
 ```
-3. Make webpack.config.js file and set up the file structure
+3. Make webpack.config.js file and set up the file structure; add webpack script to package.json
 
 ## After: 
 1. Do backend auth

@@ -1,0 +1,11 @@
+<div id="outer">
+  <div id="root">
+    <script type="text/javascript">
+    <% if logged_in? %>
+    window.currentUser = <%= render("api/users/user.json.jbuilder",
+    user: current_user).html_safe %>
+    <% end %>
+    </script>
+    MyFitness take home challenged made by David Jang!
+  </div>
+</div>
